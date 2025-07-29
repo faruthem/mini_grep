@@ -9,6 +9,6 @@ fn main() {
     //Imprimo el contenido del archivo
     println!("Palabra a buscar: {}", config.query);
     println!("Buscar: {}", config.filename);
-
+//
     mini_greg::run(config);
 }
